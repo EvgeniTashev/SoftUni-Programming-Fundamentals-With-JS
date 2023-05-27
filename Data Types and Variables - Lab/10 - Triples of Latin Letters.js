@@ -10,4 +10,3 @@ function LatLet(num) {
         }
     }
 }
-LatLet(3)
