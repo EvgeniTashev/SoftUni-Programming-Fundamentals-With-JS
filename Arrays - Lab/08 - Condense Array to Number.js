@@ -9,4 +9,3 @@ function solve(index) {
     }
     console.log(Number(index));
 }
-solve([5,0,4,1,2] )
