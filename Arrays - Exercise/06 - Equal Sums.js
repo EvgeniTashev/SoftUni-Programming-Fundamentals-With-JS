@@ -24,7 +24,8 @@ function solve(input) {
                 console.log(index);
                 break;
             }
-            else if (index == arrLength-1) { console.log("no")
+            else if (index == arrLength - 1) {
+                console.log("no")
             }
             index++;
             leftSum = 0;
@@ -33,8 +34,3 @@ function solve(input) {
         };
     }
 }
-solve([10, 5, 5, 99,
-    3, 4, 2, 5, 1,
-    1, 4]
-    
-)
