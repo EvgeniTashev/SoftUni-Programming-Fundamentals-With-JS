@@ -1,0 +1,16 @@
+function test(a){
+    const functions = {
+        hello: function() {
+          console.log("Hello");
+        },
+      
+        goodbye: function() {
+          console.log("Goodbye");
+        }
+      };
+      
+      const funcName = a;
+      
+      functions[funcName]();
+}
+test("hello");
