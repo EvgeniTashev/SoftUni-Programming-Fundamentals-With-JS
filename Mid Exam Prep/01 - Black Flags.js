@@ -1,5 +1,5 @@
 function solve(arr) {
-
+    
     let [days, dailyPlunder, expectedPlunder] = arr.map(Number);
     let gatheredPlunder = 0;
 

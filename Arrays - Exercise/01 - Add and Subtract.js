@@ -15,6 +15,7 @@ function solve(input) {
         input[index] = currentNum;
 
     }
+    console.table(input)
     console.log(input);
     console.log(oldArrSum);
     console.log(newArrSum);
